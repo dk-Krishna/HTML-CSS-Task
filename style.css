@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 0 20px;
+    color: #FF7F00;
+}
+
+.input-container {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+}
+
+button {
+    background-color: #FF7F00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    width: 46%;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #ff9327;
+}
+
+.newUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.forgetPass {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: grey;
+}
+
+.passwrd-container {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.fa-eye{
+    cursor: pointer;
+    color: lightgray;
+  }
